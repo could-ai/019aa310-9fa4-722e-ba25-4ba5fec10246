@@ -16,7 +16,7 @@ class DashboardScreen extends StatelessWidget {
             children: [
               Expanded(child: _buildKpiCard(context, 'Couverture 5G', '45%', Icons.signal_cellular_alt, Colors.blue)),
               const SizedBox(width: 16),
-              Expanded(child: _buildKpiCard(context, 'Sites Déployés', '124', Icons.tower, Colors.orange)),
+              Expanded(child: _buildKpiCard(context, 'Sites Déployés', '124', Icons.cell_tower, Colors.orange)),
               const SizedBox(width: 16),
               Expanded(child: _buildKpiCard(context, 'Score Risque', 'Low', Icons.shield, Colors.green)),
               const SizedBox(width: 16),
